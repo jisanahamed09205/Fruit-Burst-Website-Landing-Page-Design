@@ -36,7 +36,7 @@
   <!-- Nav Section -->
     <header class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10">
       <!-- Navbar Section -->
-      <div class="navbar bg-[#F85559] rounded-full">
+      <div class="navbar lg:bg-[#F85559] rounded-full">
         <div class="navbar-start">
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1 text-white text-lg font-medium">
@@ -49,7 +49,7 @@
         </div>
         <div class="navbar-center">
           <img src="./images/logo.png" alt="">
-          <h1 class=" normal-case text-4xl text-white font-bold">Fruit Burst</h1>
+          <h1 class=" normal-case text-xl lg:text-4xl text-black lg:text-white font-bold">Fruit Burst</h1>
         </div>
         <div class="navbar-end">
           <div class="dropdown">
@@ -63,7 +63,7 @@
               <li><a>All Fruits</a></li>
             </ul>
           </div> 
-          <div class="form-control">
+          <div class="form-control hidden lg:block">
             <div class="input rounded-full p-2 border-0 bg-white">
               <input type="text" placeholder="Search here" class="" />
               <button class="">
@@ -77,14 +77,14 @@
     <main>
       <!-- Banner Section -->
       <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10">
-        <div class="carousel w-full rounded-lg min-h-[500px]">
+        <div class="carousel w-full rounded-lg lg:min-h-[500px]">
           <!-- Slide-1 -->
           <div id="slide1" class="carousel-item relative w-full">
             <div class="hero w-full" style="background-image: url(./images/banner1.png);">
               <div class="hero-overlay bg-opacity-40"></div>
               <div class="hero-content text-center text-neutral-content">
                 <div class="max-w-md">
-                  <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                  <h1 class="mb-5 text-2xl lg:text-5xl font-bold">Exotic tastes at your doorstep</h1>
                   <p class="mb-5">We supply highly quality organic products</p>
                   <button class="btn bg-[#F85559] border-none text-white">Shop Now</button>
                 </div>
@@ -101,7 +101,7 @@
               <div class="hero-overlay bg-opacity-40"></div>
               <div class="hero-content text-center text-neutral-content">
                 <div class="max-w-md">
-                  <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                  <h1 class="mb-5 text-2xl lg:text-5xl font-bold">Exotic tastes at your doorstep</h1>
                   <p class="mb-5">We supply highly quality organic products</p>
                   <button class="btn bg-[#F85559] border-none text-white">Shop Now</button>
                 </div>
@@ -118,7 +118,7 @@
               <div class="hero-overlay bg-opacity-40"></div>
               <div class="hero-content text-center text-neutral-content">
                 <div class="max-w-md">
-                  <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                  <h1 class="mb-5 texl-2xl lg:text-5xl font-bold">Exotic tastes at your doorstep</h1>
                   <p class="mb-5">We supply highly quality organic products</p>
                   <button class="btn bg-[#F85559] border-none text-white">Shop Now</button>
                 </div>
@@ -135,7 +135,7 @@
               <div class="hero-overlay bg-opacity-40"></div>
               <div class="hero-content text-center text-neutral-content">
                 <div class="max-w-md">
-                  <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                  <h1 class="mb-5 text-2xl lg:text-5xl font-bold">Exotic tastes at your doorstep</h1>
                   <p class="mb-5">We supply highly quality organic products</p>
                   <button class="btn bg-[#F85559] border-none text-white">Shop Now</button>
                 </div>
@@ -148,7 +148,7 @@
           </div>
         </div>
         <!-- Carousel Bonus Part -->
-        <div class="flex w-[900px] h-[200px] bg-white mx-auto p-8 md:px-16 lg:px-24 py-10 my-10 justify-around items-center relative -top-36 rounded-lg">
+        <div class="grid lg:grid-cols-5 w-[900px] h-[200px] bg-white mx-auto p-8 md:px-16 lg:px-24 py-10 my-10 justify-around items-center relative -top-36 rounded-lg">
           <div>
             <img src="./images/fruit1.png" alt="">
             <p>Red Grapes</p>
@@ -174,30 +174,30 @@
       <!-- Deal of the day section -->
       <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10">
         <!-- Timer Part -->
-        <div class="flex justify-between">
+        <div class="flex flex-col lg:flex-row justify-center lg:justify-between">
           <div class="flex-1">
-            <h2 class="text-5xl font-extrabold mb-10">Deal of the day</h2>
+            <h2 class="text-xl lg:text-5xl font-extrabold mb-10">Deal of the day</h2>
             <p >Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
           </div>
-          <div class="flex-1">
+          <div class="flex-1 flex-col lg:flex-row">
             <div class="flex justify-evenly text-center">
               <div>
-                <h2 class="text-5xl font-extrabold mb-2">29</h2>
+                <h2 class="text-xl lg:text-5xl font-extrabold mb-2">29</h2>
                 <p>Days</p>
               </div>
               <img src="./images/Frame.svg" alt="">
               <div>
-                <h2 class="text-5xl font-extrabold mb-2">15</h2>
+                <h2 class="text-xl lg:text-5xl font-extrabold mb-2">15</h2>
                 <p>Hour</p>
               </div>
               <img src="./images/Frame.svg" alt="">
               <div>
-                <h2 class="text-5xl font-extrabold mb-2">25</h2>
+                <h2 class="text-xl lg:text-5xl font-extrabold mb-2">25</h2>
                 <p>Minute</p>
               </div>
               <img src="./images/Frame.svg" alt="">
               <div>
-                <h2 class="text-5xl font-extrabold mb-2">08</h2>
+                <h2 class="text-xl lg:text-5xl font-extrabold mb-2">08</h2>
                 <p>Second</p>
               </div>
             </div>
@@ -396,7 +396,7 @@
           <div class="hero-overlay bg-opacity-70"></div>
           <div class="hero-content text-center text-neutral-content">
             <div class="p-20">
-            <h1 class="mb-5 text-5xl font-bold">Meet the team section</h1>
+            <h1 class="mb-5 text-xl lg:text-5xl font-bold">Meet the team section</h1>
             <p class="mb-5">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
             <!-- Team member Card -->
             <div class="grid gap-10 grid-cols-1 md:grid-cols-3 lg:grid-cols-4 mr-44">
@@ -467,7 +467,7 @@
       </section>
       <!-- Why choose us section -->
       <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10">
-        <h2 class="text-5xl font-extrabold text-center">Why Choose Us</h2>
+        <h2 class="text-xl lg:text-5xl font-extrabold text-center">Why Choose Us</h2>
         <p class="text-center mt-6">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
         <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 items-center mt-12 gap-5">
           <!-- First part -->
@@ -540,9 +540,9 @@
     <footer class="footer footer-center p-10 bg-[#121212] text-base-content rounded">
       <div class="flex">
         <img src="./images/logo.png" alt="">
-        <h1 class=" normal-case text-4xl text-white font-bold">Fruit Burst</h1>
+        <h1 class=" normal-case text-2xl lg:text-4xl text-white font-bold">Fruit Burst</h1>
       </div>
-      <div class="grid grid-flow-col gap-4 text-white font-semibold">
+      <div class="grid grid-cols-4 lg:grid-cols-6 gap-4 text-white font-semibold">
         <a class="link link-hover">Home</a> 
         <a class="link link-hover">About us</a> 
         <a class="link link-hover">Shop</a> 
